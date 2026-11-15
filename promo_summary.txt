@@ -1,0 +1,5 @@
+total_orders 2400
+paid_orders 2220
+paid_amt 173176146
+backward_pays 22
+notes orders按placed_at归分钟；pays与pay_amt只统计result=success的通知并按pay_time归分钟；backward_pays统计pay_time早于placed_at的已通知订单（success与fail均计）
